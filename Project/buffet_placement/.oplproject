@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="ASCII"?><project>
+	<version>1.0</version>
+	<configs>
+		<config default="false" name="pattern_generator" category="opl">
+			<ref name="pattern_generator.mod" type="model">
+			</ref>
+		</config>
+		<config default="false" name="tables_required" category="opl">
+			<ref name="tables_required.mod" type="model">
+			</ref>
+			<ref name="patterns.dat" type="data">
+			</ref>
+		</config>
+		<config default="true" name="buffet_placement" category="opl">
+			<ref name="buffet_placement.mod" type="model">
+			</ref>
+		</config>
+	</configs>
+	
+</project>

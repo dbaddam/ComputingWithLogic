@@ -1,0 +1,3 @@
+myClause(1, or(neg(p), r)).
+myClause(2, or(p, r)).
+myQuery(3, r).

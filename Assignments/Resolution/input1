@@ -1,0 +1,9 @@
+myClause(1, p).
+myClause(2, or(neg(p),r)).
+myClause(3, or(neg(r),s)).
+myClause(4, or(or(neg(s),neg(t)),x)).
+myClause(5, or(t,v)).
+myClause(6, or(neg(v),w)).
+myClause(7,or(neg(w),u)).
+myClause(8, neg(u)).
+myQuery(9, neg(x)).
